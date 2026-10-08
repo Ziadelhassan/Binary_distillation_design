@@ -13,6 +13,7 @@ public class Regression {
         ArrayList<Double> yList = new ArrayList<>();
         
         try (Scanner scan = new Scanner(new File(filePath))) {
+            scan.useLocale(Locale.US);
             while (scan.hasNextDouble()) {
                 xList.add(scan.nextDouble()); 
                 yList.add(scan.nextDouble()); 
