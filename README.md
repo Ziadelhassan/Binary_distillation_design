@@ -41,4 +41,22 @@ Enter **Y** to use the existing inputs or **N** to enter new values.
 ## Output
 The program generates `output.txt` containing reflux ratios, stage count, feed-stage location, product flow rates, regression coefficients, operating-line parameters, and stage compositions.
 
-The reported theoretical stage count excludes the reboiler.
+## Reference Results
+For the supplied methanol–ethanol case:
+
+| Output                                 | Value      |
+| ---                                    |    ---:    |
+| Minimum reflux ratio                   |     2.64   |
+| Operating reflux ratio                 |    3.96    |
+| Theoretical stages, excluding reboiler |     20     |
+| Feed stage                             |     10     |
+| Distillate flow rate                   | 225 kmol/h |
+| Bottoms flow rate                      | 275 kmol/h |
+
+The original project compared these results with an independent Excel solution. Main outputs agreed at the reported precision, except the Excel feed stage was 11.
+
+## Limitations
+Uses equilibrium stages and a quadratic VLE fit. Input validation is incomplete, and the model does not account for actual tray efficiency or energy duties.
+
+## Authors
+Ziad Elhassan, and Michael Mekalopolos, Nassar Shakir.
