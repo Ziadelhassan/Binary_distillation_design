@@ -59,4 +59,4 @@ The original project compared these results with an independent Excel solution. 
 Uses equilibrium stages and a quadratic VLE fit. Input validation is incomplete, and the model does not account for actual tray efficiency or energy duties.
 
 ## Authors
-Ziad Elhassan, and Michael Mekalopolos, Nassar Shakir.
+Ziad Elhassan, Michael Mekalopolos, and Nassar Shakir.
