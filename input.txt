@@ -1,0 +1,5 @@
+Feed quality (q) = 1.13
+Feed concentration (zF) = 0.45
+Distillate concentration (xD) = 0.95
+Bottoms concentration (xB) = 0.04
+Feed flow rate (F) = 500.0
